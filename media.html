@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <script src="resources/jquery-3.2.1.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <style>
+    	*{
+    		padding:0;
+    		margin:0;
+    	}
+    	
+    	.test{
+	    	width:300px;
+	    	height:200px;
+	    	background:red;
+    	}
+    	
+    	.coltest{
+    		height:200px;
+	    	background:red;
+    	}
+    	
+    	@media screen and (max-width:900px) and (min-width:600px){
+    		.test{
+		    	width:200px;
+		    	height:30px;
+		    	background:blue;
+    		}
+    	}
+    	
+    </style>
+</head>
+
+<body>
+	<div class="coltest col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lg-offset-3"> </div>
+</body>
+</html>
